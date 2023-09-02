@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.firstdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container {
+  width: 400px;
+
+  background-color: rgb(151, 184, 228);
+  border-radius: 10px;
+}
+.form {
+  display: flex;
+  padding: 10px;
+  margin-top: 10px;
+}
+.form input {
+  background-color: transparent;
+  padding: 10px;
+  width: 300px;
+  font-size: large;
+
+  border: none;
+  outline: none;
+  border-bottom: 0.5px solid rgb(53, 53, 53);
+}
+.form input::placeholder {
+  color: black;
+}
+.form button {
+  font-size: large;
+  width: 80px;
+  border: none;
+  outline: none;
+  background-color: blue;
+  border-radius: 5px;
+}
+.form button:hover {
+  filter: brightness(75%);
+}
+.temperature {
+  text-align: center;
+  font-size: 70px;
+  margin-top: 20px;
+}
+.temperature h3 {
+  font-size: 25px;
+}
+.datas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.humadity,
+.windspeed {
+  font-size: 20px;
+  width: 150px;
+  margin-top: 20px;
+}
+.icondiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.icon {
+  width: 90px;
+  height: 90px;
+}
+p {
+  font-size: 25px;
+  display: block;
+}
+h4 {
+  padding: 10px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
